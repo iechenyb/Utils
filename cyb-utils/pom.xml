@@ -44,5 +44,8 @@
     <module>cyb-utils-common</module>
     <module>cyb-utils-mvc</module>
     <module>cyb-utils-po</module>
+    <module>cyb-utils-app</module>
+    <module>algorithm</module>
+    <module>cyb-utils-algorithm</module>
   </modules>
 </project>
