@@ -1,0 +1,14 @@
+$pojo.getPackageDeclaration()
+import org.springframework.stereotype.Repository;
+import core.dao.BaseDao;
+
+#set($declarationName=$pojo.importType($pojo.getDeclarationName()))
+#set($className="${declarationName}DAO")
+
+@Repository
+public class $className extends BaseDao<${declarationName}>{
+
+public $className () {
+super(${declarationName}.class);
+}
+}
